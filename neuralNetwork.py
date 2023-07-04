@@ -1,5 +1,6 @@
 import numpy as np
 
+#awdawdawdawdawd
 def softmax(x): #Normalizacija output sloja na 0.0-1.0 - Oduzmemo maksimalnu vrijednost radi stabilnosti / velikih brojeva
     exp = np.exp(x - np.max(x)) 
     return exp / exp.sum(axis=0)
